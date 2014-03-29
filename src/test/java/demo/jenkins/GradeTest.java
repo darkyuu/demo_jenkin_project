@@ -33,4 +33,9 @@ public class GradeTest {
 		assertEquals("A", grade.convert(80));
 	}
 
+	@Test
+	public void scoreq100ShouldGetGradeS(){
+		assertEquals("S", grade.convert(100));
+	}
+
 }
